@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16AF5CAD1D50F93F0057243F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AF5CAC1D50F93F0057243F /* AppDelegate.swift */; };
+		16AF5CAF1D50F93F0057243F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AF5CAE1D50F93F0057243F /* ViewController.swift */; };
+		16AF5CB21D50F93F0057243F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16AF5CB01D50F93F0057243F /* Main.storyboard */; };
+		16AF5CB51D50F93F0057243F /* ewok.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 16AF5CB31D50F93F0057243F /* ewok.xcdatamodeld */; };
+		16AF5CB71D50F93F0057243F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16AF5CB61D50F93F0057243F /* Assets.xcassets */; };
+		16AF5CBA1D50F93F0057243F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16AF5CB81D50F93F0057243F /* LaunchScreen.storyboard */; };
+		16AF5CC51D50F93F0057243F /* ewokTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AF5CC41D50F93F0057243F /* ewokTests.swift */; };
+		16AF5CD01D50F93F0057243F /* ewokUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AF5CCF1D50F93F0057243F /* ewokUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16AF5CC11D50F93F0057243F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16AF5CA11D50F93F0057243F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16AF5CA81D50F93F0057243F;
+			remoteInfo = ewok;
+		};
+		16AF5CCC1D50F93F0057243F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16AF5CA11D50F93F0057243F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16AF5CA81D50F93F0057243F;
+			remoteInfo = ewok;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16AF5CA91D50F93F0057243F /* ewok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ewok.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16AF5CAC1D50F93F0057243F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		16AF5CAE1D50F93F0057243F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		16AF5CB11D50F93F0057243F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16AF5CB41D50F93F0057243F /* ewok.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ewok.xcdatamodel; sourceTree = "<group>"; };
+		16AF5CB61D50F93F0057243F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16AF5CB91D50F93F0057243F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16AF5CBB1D50F93F0057243F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16AF5CC01D50F93F0057243F /* ewokTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ewokTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16AF5CC41D50F93F0057243F /* ewokTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ewokTests.swift; sourceTree = "<group>"; };
+		16AF5CC61D50F93F0057243F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16AF5CCB1D50F93F0057243F /* ewokUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ewokUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16AF5CCF1D50F93F0057243F /* ewokUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ewokUITests.swift; sourceTree = "<group>"; };
+		16AF5CD11D50F93F0057243F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16AF5CA61D50F93F0057243F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16AF5CBD1D50F93F0057243F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16AF5CC81D50F93F0057243F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16AF5CA01D50F93F0057243F = {
+			isa = PBXGroup;
+			children = (
+				16AF5CAB1D50F93F0057243F /* ewok */,
+				16AF5CC31D50F93F0057243F /* ewokTests */,
+				16AF5CCE1D50F93F0057243F /* ewokUITests */,
+				16AF5CAA1D50F93F0057243F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16AF5CAA1D50F93F0057243F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16AF5CA91D50F93F0057243F /* ewok.app */,
+				16AF5CC01D50F93F0057243F /* ewokTests.xctest */,
+				16AF5CCB1D50F93F0057243F /* ewokUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16AF5CAB1D50F93F0057243F /* ewok */ = {
+			isa = PBXGroup;
+			children = (
+				16AF5CAC1D50F93F0057243F /* AppDelegate.swift */,
+				16AF5CAE1D50F93F0057243F /* ViewController.swift */,
+				16AF5CB01D50F93F0057243F /* Main.storyboard */,
+				16AF5CB61D50F93F0057243F /* Assets.xcassets */,
+				16AF5CB81D50F93F0057243F /* LaunchScreen.storyboard */,
+				16AF5CBB1D50F93F0057243F /* Info.plist */,
+				16AF5CB31D50F93F0057243F /* ewok.xcdatamodeld */,
+			);
+			path = ewok;
+			sourceTree = "<group>";
+		};
+		16AF5CC31D50F93F0057243F /* ewokTests */ = {
+			isa = PBXGroup;
+			children = (
+				16AF5CC41D50F93F0057243F /* ewokTests.swift */,
+				16AF5CC61D50F93F0057243F /* Info.plist */,
+			);
+			path = ewokTests;
+			sourceTree = "<group>";
+		};
+		16AF5CCE1D50F93F0057243F /* ewokUITests */ = {
+			isa = PBXGroup;
+			children = (
+				16AF5CCF1D50F93F0057243F /* ewokUITests.swift */,
+				16AF5CD11D50F93F0057243F /* Info.plist */,
+			);
+			path = ewokUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16AF5CA81D50F93F0057243F /* ewok */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16AF5CD41D50F93F0057243F /* Build configuration list for PBXNativeTarget "ewok" */;
+			buildPhases = (
+				16AF5CA51D50F93F0057243F /* Sources */,
+				16AF5CA61D50F93F0057243F /* Frameworks */,
+				16AF5CA71D50F93F0057243F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ewok;
+			productName = ewok;
+			productReference = 16AF5CA91D50F93F0057243F /* ewok.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16AF5CBF1D50F93F0057243F /* ewokTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16AF5CD71D50F93F0057243F /* Build configuration list for PBXNativeTarget "ewokTests" */;
+			buildPhases = (
+				16AF5CBC1D50F93F0057243F /* Sources */,
+				16AF5CBD1D50F93F0057243F /* Frameworks */,
+				16AF5CBE1D50F93F0057243F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16AF5CC21D50F93F0057243F /* PBXTargetDependency */,
+			);
+			name = ewokTests;
+			productName = ewokTests;
+			productReference = 16AF5CC01D50F93F0057243F /* ewokTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16AF5CCA1D50F93F0057243F /* ewokUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16AF5CDA1D50F93F0057243F /* Build configuration list for PBXNativeTarget "ewokUITests" */;
+			buildPhases = (
+				16AF5CC71D50F93F0057243F /* Sources */,
+				16AF5CC81D50F93F0057243F /* Frameworks */,
+				16AF5CC91D50F93F0057243F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16AF5CCD1D50F93F0057243F /* PBXTargetDependency */,
+			);
+			name = ewokUITests;
+			productName = ewokUITests;
+			productReference = 16AF5CCB1D50F93F0057243F /* ewokUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16AF5CA11D50F93F0057243F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ASAP;
+				TargetAttributes = {
+					16AF5CA81D50F93F0057243F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					16AF5CBF1D50F93F0057243F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 16AF5CA81D50F93F0057243F;
+					};
+					16AF5CCA1D50F93F0057243F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 16AF5CA81D50F93F0057243F;
+					};
+				};
+			};
+			buildConfigurationList = 16AF5CA41D50F93F0057243F /* Build configuration list for PBXProject "ewok" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16AF5CA01D50F93F0057243F;
+			productRefGroup = 16AF5CAA1D50F93F0057243F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16AF5CA81D50F93F0057243F /* ewok */,
+				16AF5CBF1D50F93F0057243F /* ewokTests */,
+				16AF5CCA1D50F93F0057243F /* ewokUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16AF5CA71D50F93F0057243F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16AF5CBA1D50F93F0057243F /* LaunchScreen.storyboard in Resources */,
+				16AF5CB71D50F93F0057243F /* Assets.xcassets in Resources */,
+				16AF5CB21D50F93F0057243F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16AF5CBE1D50F93F0057243F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16AF5CC91D50F93F0057243F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16AF5CA51D50F93F0057243F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16AF5CAF1D50F93F0057243F /* ViewController.swift in Sources */,
+				16AF5CAD1D50F93F0057243F /* AppDelegate.swift in Sources */,
+				16AF5CB51D50F93F0057243F /* ewok.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16AF5CBC1D50F93F0057243F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16AF5CC51D50F93F0057243F /* ewokTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16AF5CC71D50F93F0057243F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16AF5CD01D50F93F0057243F /* ewokUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16AF5CC21D50F93F0057243F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16AF5CA81D50F93F0057243F /* ewok */;
+			targetProxy = 16AF5CC11D50F93F0057243F /* PBXContainerItemProxy */;
+		};
+		16AF5CCD1D50F93F0057243F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16AF5CA81D50F93F0057243F /* ewok */;
+			targetProxy = 16AF5CCC1D50F93F0057243F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16AF5CB01D50F93F0057243F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16AF5CB11D50F93F0057243F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16AF5CB81D50F93F0057243F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16AF5CB91D50F93F0057243F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16AF5CD21D50F93F0057243F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16AF5CD31D50F93F0057243F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16AF5CD51D50F93F0057243F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ewok/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.maine.um.asap.ewok;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		16AF5CD61D50F93F0057243F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ewok/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.maine.um.asap.ewok;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		16AF5CD81D50F93F0057243F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ewokTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.maine.um.asap.ewokTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ewok.app/ewok";
+			};
+			name = Debug;
+		};
+		16AF5CD91D50F93F0057243F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ewokTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.maine.um.asap.ewokTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ewok.app/ewok";
+			};
+			name = Release;
+		};
+		16AF5CDB1D50F93F0057243F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ewokUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.maine.um.asap.ewokUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ewok;
+			};
+			name = Debug;
+		};
+		16AF5CDC1D50F93F0057243F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ewokUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.maine.um.asap.ewokUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ewok;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16AF5CA41D50F93F0057243F /* Build configuration list for PBXProject "ewok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16AF5CD21D50F93F0057243F /* Debug */,
+				16AF5CD31D50F93F0057243F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16AF5CD41D50F93F0057243F /* Build configuration list for PBXNativeTarget "ewok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16AF5CD51D50F93F0057243F /* Debug */,
+				16AF5CD61D50F93F0057243F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		16AF5CD71D50F93F0057243F /* Build configuration list for PBXNativeTarget "ewokTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16AF5CD81D50F93F0057243F /* Debug */,
+				16AF5CD91D50F93F0057243F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		16AF5CDA1D50F93F0057243F /* Build configuration list for PBXNativeTarget "ewokUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16AF5CDB1D50F93F0057243F /* Debug */,
+				16AF5CDC1D50F93F0057243F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		16AF5CB31D50F93F0057243F /* ewok.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				16AF5CB41D50F93F0057243F /* ewok.xcdatamodel */,
+			);
+			currentVersion = 16AF5CB41D50F93F0057243F /* ewok.xcdatamodel */;
+			path = ewok.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 16AF5CA11D50F93F0057243F /* Project object */;
+}
